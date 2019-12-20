@@ -7,7 +7,7 @@
 
 # 데이터 불러오기
 
-![모든데이터.PNG](C:\Users\vbcjv\Desktop\인공지능마지막/모든데이터.PNG)
+![모든데이터.PNG](./모든데이터.PNG)
 
 
 ```
@@ -18,7 +18,7 @@ gildong.read('airbnb.csv')
 gildong.show_unique_column()
 ```
 
-![유니크.PNG](C:\Users\vbcjv\Desktop\인공지능마지막/유니크.PNG)
+![유니크.PNG](./유니크.PNG)
 
 # 불필요한 데이터 속성 제거
 
@@ -34,7 +34,7 @@ gildong.drop(['id', 'minimum_nights', 'maximum_nights', 'number_of_reviews'])
 gildong.heatmap(['accommodates', 'bathrooms', 'bedrooms', 'beds', 'price'])
 `
 
-![히트맵.PNG](C:\Users\vbcjv\Desktop\인공지능마지막/히트맵.PNG)
+![히트맵.PNG](./히트맵.PNG)
 
 히트맵 결과 accommodates, bedrooms, beds가 관련이 높다는것을 볼 수 있습니다
 
@@ -42,7 +42,7 @@ gildong.heatmap(['accommodates', 'bathrooms', 'bedrooms', 'beds', 'price'])
 gildong.plot_3d('bedrooms', 'beds', 'price')
 `
 
-![3d.PNG](C:\Users\vbcjv\Desktop\인공지능마지막/3d.PNG)
+![3d.PNG](./3d.PNG)
 
 beds와 bedrooms가 높을수록 가격이 높은 것을 알수있습니다
 
