@@ -48,3 +48,39 @@ beds와 bedrooms가 높을수록 가격이 높은 것을 알수있습니다
 
 # 데이터 학습 및 예측
 
+## 1. LinearRegression
+
+`
+gildong.run_linear_regress(['accommodates', 'bedrooms', 'beds'], 'price')
+`
+
+## 2. KNeighborsRegressor
+
+`
+gildong.run_kneighbor_regress(['accommodates', 'bedrooms', 'beds'], 'price')
+`
+
+## 3. DecisionTreeRegressor
+
+`
+gildong.run_decision_tree(['accommodates', 'bedrooms', 'beds'], 'price')
+`
+ 
+## 4.RandomForestRegressor
+
+`
+gildong.run_random_forest(['accommodates', 'bedrooms', 'beds'], 'price')
+`
+
+## 5. 4가지 방법 동시실행
+
+`
+gildong.run_all(['accommodates', 'bedrooms', 'beds'], 'price')
+`
+
+# 오류...???
+
+수업시간에 배운 내용처러 나름 열심히 해봤는데 마지막에서 오류가 났습니다..
+열심히 찾아봤는데 아무리 해봐도 어디서 잘못된건지 잘모르겠습니다.. ㅠㅠ
+
+이번 수업을 통해서 머신러닝이 어떻게 이루어지는지 조금이라도 알게 되어서 유익한 시간이었던것 같습니다!!
